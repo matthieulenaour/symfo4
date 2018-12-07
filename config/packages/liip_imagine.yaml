@@ -3,15 +3,12 @@ liip_imagine:
         thumb:
             quality: 75
             filters:
-                thumbnail:
-                    size: [360, 230]
-                    mode: outbound
+                thumbnail: { size: [360, 230], mode: outbound }
         medium:
             quality: 75
             filters:
-                thumbnail:
-                    size: [800, 530]
-                    mode: outbound
+                thumbnail: { size: [800, 530], mode: outbound }
+
 
 #
 #        # an example thumbnail transformation definition
